@@ -37,6 +37,5 @@ config :ex_admin,
   module: ExAdminDemo,
   modules: [
     ExAdminDemo.ExAdmin.Dashboard,
-    ExAdminDemo.ExAdmin.User,
     ExAdminDemo.ExAdmin.Address
   ]

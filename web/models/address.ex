@@ -6,8 +6,6 @@ defmodule ExAdminDemo.Address do
     field :phone_number, :string
     field :type, :string
 
-    belongs_to :user, ExAdminDemo.User
-
     timestamps
   end
 
